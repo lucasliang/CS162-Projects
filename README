@@ -1,0 +1,86 @@
+Various other projects created for CS162
+
+Derivative Calculator:
+A simple polynomial derivative finder. Used as part of my polynomial root calculator using Newton's method. Requires you enter things like "3x^2 - 2x + 3" (Spaces are necessary)
+
+Enter your polynomial:
+4x^3 - 3x^2 + 4x - 9
+Derivative:
+12x^2 + -6x + 4
+
+Enter your polynomial:
+-4x^-3 + 5x
+Derivative:
+12x^-4 + 5
+
+
+Root Finder:
+Solution using Newton's Method for finding polynomial roots. I believe there are some limitations on this mathematical method itself, which might not always result in convergence to a root. However, you can just choose a better guess and it should work I think.
+
+Sample Runs:
+Enter your polynomial:
+3x^4 + 2x^2 - 100
+Enter a initial guess:
+0
+Root = 2.3344773292407677
+
+Enter your polynomial:
+2x^2 - 1
+Enter a initial guess:
+0
+Root = 0.7071078431372549
+
+Enter your polynomial:
+100x^5 - 30x + 10
+Enter a initial guess:
+0
+Root = 0.35112288416251736
+
+Enter your polynomial:
+4x^2 - 16
+Enter a initial guess:
+0
+Root = 2.0000000929222947
+
+
+St. Petersburg Paradox:
+Implementation of the interesting St. Petersburg Paradox! 
+https://en.wikipedia.org/wiki/St._Petersburg_paradox
+
+This program runs the game as many times as you want and returns the maximum payoff and the exepcted payoff. Note the large variance in expected payoff even as number of runs gets large.
+
+Sample Runs:
+How many times would you like to play?:
+1
+Maximum payoff 1
+The expected payoff is 1.0
+
+How many times would you like to play?:
+100
+Maximum payoff 128
+The expected payoff is 6.39
+
+How many times would you like to play?:
+1000
+Maximum payoff 256
+The expected payoff is 4.289 
+
+How many times would you like to play?:
+1000000
+Maximum payoff 1048576
+The expected payoff is 11.641972
+
+How many times would you like to play?:
+1000000
+Maximum payoff 524288
+The expected payoff is 9.639683
+
+How many times would you like to play?:
+1000000
+Maximum payoff 131072
+The expected payoff is 8.80398
+
+How many times would you like to play?:
+1000000
+Maximum payoff 4194304
+The expected payoff is 15.274039 
